@@ -5,4 +5,4 @@ Demo：[点我](http://demo.daryldong.com/reactgallery/)
 
 图片路径/src/images，为了上传快一些没有上传图片资源。
 
-使用了[YEOMAN](http://yeoman.io/)来快速搭建环境。
+使用了[Yeoman](http://yeoman.io/)来快速搭建环境。
