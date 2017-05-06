@@ -1,0 +1,48 @@
+figure, figcaption {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.img-figure {
+  position: absolute;
+  width: 360px;
+  height: 290px;
+  box-sizing: border-box;
+  padding: 30px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #ffffff;
+  font-family: "Comic Sans MS", "Microsoft YaHei UI", sans-serif;
+  cursor: pointer;
+  transform-origin: 0 50% 0;
+  transform-style: preserve-3d;
+  transition: all .5s ease;
+}
+
+.img-inverse {
+  transform: translate(360px) rotateY(180deg);
+}
+
+.img-title {
+  margin: 20px 0 0 0;
+  color: #a7a0a2;
+  font-size: 18px;
+}
+
+.img-back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 360px;
+  height: 290px;
+  padding: 30px;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: center;
+  color: #666;
+  background: #fff;
+  transform: rotateY(180deg) translateZ(1px);
+}

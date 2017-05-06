@@ -1,0 +1,33 @@
+.controller-unit {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #aaa;
+  border-radius: 50%;
+  transform: scale(.5);
+  transition: all .5s ease;
+  opacity: .8;
+}
+
+.center {
+  background-color: #888;
+  transform: scale(1);
+}
+
+.center::after {
+  content: "\21BB";
+  font-family: "icons-turn-arrow";
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.inverse {
+  background-color: #555555;
+  transform: rotateY(180deg);
+}
